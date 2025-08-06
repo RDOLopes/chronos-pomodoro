@@ -1,8 +1,13 @@
+import { Heading } from "./components/Heading";
+
+import "./styles/theme.css";
+import "./styles/global.css";
+
 function App() {
   console.log("oi");
   return (
     <>
-      <h1> Olá mundo!</h1>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel
         ornare justo, ac aliquet lacus. Aliquam blandit condimentum dictum.
